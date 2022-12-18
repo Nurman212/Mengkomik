@@ -1,0 +1,389 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+  font-family: arial;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* Navbar */
+nav {
+  background-color: #222222;
+  height: 60px;
+  width: 100%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  /* height: 60px; */
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 10px;
+}
+
+nav ul li .a {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.a:hover {
+  background-color: #787A91;
+  transition: .5s;
+  opacity: 55%;
+}
+
+.logo {
+  float: left;
+  height: 60px;
+  width: 125px;
+  border-radius: 10px;
+}
+
+.logo:hover {
+  background-color: #222222;
+  opacity: 55%;
+  transition: .5s;
+}
+
+.logo a img {
+  display: block;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* main */
+
+main {
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-areas:
+    "main pinggiran";
+  grid-gap: 5px;
+}
+
+.main {
+  padding: 5px;
+  grid-area: main;
+  background-color: #FAF8F1;
+}
+
+.pinggiran {
+  padding: 5px;
+  grid-area: pinggiran;
+  background-color: #FAF8F1;
+}
+
+/* Card */
+.card-komik1 {
+  box-shadow: 5px 5px 10px 0px #1597BB;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.img1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 160px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.judul-komik1 {
+  padding: 5px;
+}
+
+.judul-komik1 p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.judul-komik1 p a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  border: 2px;
+}
+
+.p {
+  text-align: right;
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+
+.ch1 {
+  margin-left: 5px;
+}
+
+.ch1 a {
+  padding: 5px;
+  background-color: #222222;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.card-komik2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 60% 40%;
+  grid-template-areas:
+    "img-komik judul-komik"
+    "img-komik ch";
+  grid-gap: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px #1597BB;
+}
+
+.img-komik2 {
+
+  height: 100px;
+  width: 150px;
+  grid-area: img-komik;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.judul-komik2 {
+  grid-area: judul-komik;
+}
+
+.ch2 {
+  grid-area: ch;
+  height: 30px;
+  width: 100px;
+}
+
+/* nama fitur */
+.nama-fitur1 {
+  color: #1597BB;
+  text-align: center;
+  background-color: #222222;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.nama-fitur2 {
+  color: #1597BB;
+  text-align: center;
+  background-color: #222222;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.nama-fitur3 {
+  color: #1597BB;
+  text-align: center;
+  background-color: #222222;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+/* TIPE */
+
+.tipe {
+  color: #1597BB;
+  text-align: right;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+/* Dropdown */
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #111;
+  opacity: 70%;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #72757d;
+  min-width: 100px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #Dde1ea;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.manga {
+  margin: 15px;
+}
+
+.manhua {
+  margin: 15px;
+}
+
+.manhwa {
+  margin: 15px;
+}
+
+.col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-row-gap: 50px;
+}
+
+.row {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
+
+/* ========= footer =========== */
+
+.footer {
+  padding: 10px;
+  display: grid;
+  align-items: flex-end;
+  height: 100px;
+  background-color: #222222;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+}
+
+/* =============== header =============== */
+
+.header {
+  margin-top: 10px;
+  display: grid;
+  align-items: center;
+  height: 250px;
+  background-color: #1597BB;
+  background-image: url(./img/head.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.note {
+  text-align: center;
+  color: white;
+  text-shadow: 3px 1px black;
+}
+
+/* ========================= HALAMAN ABOUT =========================== */
+.main-about {
+  margin: 10px;
+  margin-bottom: 100px;
+}
+
+.cards1 {
+  width: fit-content;
+  box-shadow: 5px 5px 10px 0px #1597BB;
+  border-radius: 10px;
+}
+
+.image1 {
+  height: 300px;
+  width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.kel {
+  color: black;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 50px;
+}
+
+.container-about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* grid-gap: 20px; */
+  justify-items: center;
+  grid-row-gap: 100px;
+}
+
+.ig {
+  height: 40px;
+}
+
+.igg {
+  list-style: none;
+}
+
+.container-field {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.container-field h4 {
+  padding-bottom: 5px;
+}
+
+.link {
+  display: grid;
+  justify-items: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,63 @@
+{
+    "manhwa": [{
+            "img": "assets/img/manhwa/Bastard.jpg",
+            "nama": "Bastard",
+            "tipe": "manhwa",
+            "chapter": 23
+        },
+        {
+            "img": "assets/img/manhwa/Eleceed.jpg",
+            "nama": "Eleceed",
+            "tipe": "manhwa",
+            "chapter": 2
+        },
+        {
+            "img": "assets/img/manhwa/Solo-Leveling.jpg",
+            "nama": "Solo Leveling",
+            "tipe": "manhwa",
+            "chapter": 13
+        },
+        {
+            "img": "assets/img/manhwa/The-Boxer.jpg",
+            "nama": "The Boxer",
+            "tipe": "manhwa",
+            "chapter": 23
+        },
+        {
+            "img": "assets/img/manhwa/The-Breaker.jpg",
+            "nama": "The Breaker",
+            "tipe": "manhwa",
+            "chapter": 43
+        },
+        {
+            "img": "assets/img/manhwa/The-Horizon.jpg",
+            "nama": "The Horizon",
+            "tipe": "manhwa",
+            "chapter": 55
+        },
+        {
+            "img": "assets/img/manhwa/The-Legend-of-the-Northern-Blade.jpg",
+            "nama": "The Legend of the Northern Blade",
+            "tipe": "manhwa",
+            "chapter": 65
+        },
+        {
+            "img": "assets/img/manhwa/Tower-of-God.jpg",
+            "nama": "Tower of God",
+            "tipe": "manhwa",
+            "chapter": 66
+        },
+        {
+            "img": "assets/img/manhwa/Who-Made-Me-a-Princess.jpg",
+            "nama": "Who Made Me a Princess",
+            "tipe": "manhwa",
+            "chapter": 76
+        },
+        {
+            "img": "assets/img/manhwa/WindBreaker.jpg",
+            "nama": "WindBreaker",
+            "tipe": "manhwa",
+            "chapter": 31
+        }
+    ]
+}

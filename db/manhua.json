@@ -1,0 +1,63 @@
+{
+    "manhua": [{
+            "img": "assets/img/manhua/i-am-daxianzun.jpg",
+            "nama": "I am Daxianzun",
+            "tipe": "manhua",
+            "chapter": 56
+        },
+        {
+            "img": "assets/img/manhua/Invincible-At-Start.jpg",
+            "nama": "Invincible at Start",
+            "tipe": "manhua",
+            "chapter": 122
+        },
+        {
+            "img": "assets/img/manhua/19-Tian.jpg",
+            "nama": "19 Tian",
+            "tipe": "manhua",
+            "chapter": 12
+        },
+        {
+            "img": "assets/img/manhua/Battle-Through-the-Heavens.jpg",
+            "nama": "Battle Through the Heavens",
+            "tipe": "manhua",
+            "chapter": 23
+        },
+        {
+            "img": "assets/img/manhua/Feng-Shen-Ji-2.jpg",
+            "nama": "Feng Shen Ji 2",
+            "tipe": "manhua",
+            "chapter": 34
+        },
+        {
+            "img": "assets/img/manhua/Feng-Shen-Ji-3.jpg",
+            "nama": "Feng Shen Ji 3",
+            "tipe": "manhua",
+            "chapter": 45
+        },
+        {
+            "img": "assets/img/manhua/Grandmaster-of-Demonic-Cultivation-Mo-Da-Zu-Shi.jpg",
+            "nama": "Grandmaster of Demonic Cultivation - Mo Da Zu Shi",
+            "tipe": "manhua",
+            "chapter": 76
+        },
+        {
+            "img": "assets/img/manhua/Heaven-Official's-Blessing.jpg",
+            "nama": "Heaven Official's Blessing",
+            "tipe": "manhua",
+            "chapter": 75
+        },
+        {
+            "img": "assets/img/manhua/Here-U-Are.jpg",
+            "nama": "Here U Are",
+            "tipe": "manhua",
+            "chapter": 45
+        },
+        {
+            "img": "assets/img/manhua/martial-peak.jpg",
+            "nama": "martial peak",
+            "tipe": "manhua",
+            "chapter": 2555
+        }
+    ]
+}

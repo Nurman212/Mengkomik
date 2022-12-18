@@ -1,0 +1,63 @@
+{
+    "manga": [{
+            "img": "assets/img/manga/Berserk.jpg",
+            "nama": "Berserk",
+            "tipe": "manga",
+            "chapter": 34
+        },
+        {
+            "img": "assets/img/manga/Bleach.jpg",
+            "nama": "Bleach",
+            "tipe": "manga",
+            "chapter": 45
+        },
+        {
+            "img": "assets/img/manga/Chainsaw-Man.jpg",
+            "nama": "Chainsaw Man",
+            "tipe": "manga",
+            "chapter": 3
+        },
+        {
+            "img": "assets/img/manga/Dragon-Ball-Super.jpg",
+            "nama": "Dragon Ball Super",
+            "tipe": "manga",
+            "chapter": 23
+        },
+        {
+            "img": "assets/img/manga/Dragon-Ball.jpg",
+            "nama": "Dragon Ball",
+            "tipe": "manga",
+            "chapter": 54
+        },
+        {
+            "img": "assets/img/manga/Gintama.jpg",
+            "nama": "Gintama",
+            "tipe": "manga",
+            "chapter": 4
+        },
+        {
+            "img": "assets/img/manga/Jujutsu-Kaisen.jpg",
+            "nama": "Jujutsu Kaisen",
+            "tipe": "manga",
+            "chapter": 76
+        },
+        {
+            "img": "assets/img/manga/Mob-Psycho-100.jpg",
+            "nama": "Mob Psycho 100",
+            "tipe": "manga",
+            "chapter": 54
+        },
+        {
+            "img": "assets/img/manga/Naruto.jpg",
+            "nama": "Naruto",
+            "tipe": "manga",
+            "chapter": 234
+        },
+        {
+            "img": "assets/img/manga/One-Piece.jpg",
+            "nama": "One Piece",
+            "tipe": "manga",
+            "chapter": 87
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengkomik</title>
+    <link rel="icon" href="./assets/img/logo.png">
+</head>
+
+<body>
+    <!-- ------NAVBAR----- -->
+    <nav>
+        <label class="logo"><a href="/index.html"><img src="/assets/img/logo.png" class="icon"></a></label>
+        <ul>
+            <li><a href="/index.html" class="a">Home</a></li>
+            <li><a href="#borkmark" class="a">Bookmark</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Kategori</a>
+                <div class="dropdown-content">
+                    <a href="#com-manga">Manga</a>
+                    <a href="#com-manhwa">Manhwa</a>
+                    <a href="#com-manhua">Manhua</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Genre</a>
+                <div class="dropdown-content">
+                    <a href="#">Action</a>
+                    <a href="#">Comedy</a>
+                    <a href="#">Romance</a>
+                    <a href="#">Slice of Life</a>
+                    <a href="#">Horror</a>
+                    <a href="#">Isekai</a>
+                </div>
+            </li>
+            <li><a href="/about.html" class="a">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="header">
+        <H1 class="note">BACA KOMIK SUB INDO DISINI AJA YGY</H1>
+    </div>
+
+    <!-- -----MAIN----- -->
+    <main>
+        <div class="container">
+            <div class="main">
+                <div class="fitur">
+                    <div class="hot">
+                        <h3 class="nama-fitur1">HOT</h3>
+                    </div>
+                    <div class="update">
+                        <h3 class="nama-fitur2">UPDATE</h3>
+
+                        <h3 id="com-manga" class="tipe">MANGA</h3>
+                        <div class="manga">
+                            <div id="manga" class="col"></div>
+                        </div>
+
+                        <h3 id="com-manhwa" class="tipe">MANHWA</h3>
+                        <div class="manhwa">
+                            <div id="manhwa" class="col"></div>
+                        </div>
+
+                        <h3 id="com-manhua" class="tipe">MANHUA</h3>
+                        <div class="manhua">
+                            <div id="manhua" class="col"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -----ASIDE----- -->
+            <div class="pinggiran">
+                <h3 class="nama-fitur3">POPULER</h3>
+
+                <div class="row">
+                    <div class="card-komik2">
+                        <img class="img-komik2" src="https://s3.zerochan.net/240/10/22/3643610.jpg">
+                        <h3 class="judul-komik2">The Beginning After The End</h3>
+                        <button class="ch2">chapter</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="copyright">© 2022 Pemrograman Web Dasar / Kelompok 1</p>
+    </footer>
+    <!-- ============== JAVASCRIPT ============ -->
+    <script src="script.js"></script>
+</body>
+
+</html>
